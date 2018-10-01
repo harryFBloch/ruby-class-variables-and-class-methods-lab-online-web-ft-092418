@@ -38,8 +38,8 @@ class Song
    def self.artist_count
     return_hash = []
     @@artists.each { |artist| 
-      return_hash[artist] = @@artist.count(artist)
+      return_hash[artist] = @@artists.count(artist)
     }
   end
-  
+  return_hash
 end
