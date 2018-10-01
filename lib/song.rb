@@ -38,10 +38,8 @@ class Song
    def self.artist_count
     return_hash = {}
     @@artists.each { |art|
-      binding.pry
       return_hash[art] = @@artists.count("#{art}")
     }
-    binding.pry
     return_hash
   end
   
