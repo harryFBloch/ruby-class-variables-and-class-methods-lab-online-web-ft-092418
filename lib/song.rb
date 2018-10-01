@@ -40,6 +40,7 @@ class Song
     @@artists.each { |artist| 
       return_hash[artist] = @@artists.count(artist)
     }
+    return_hash
   end
-  return_hash
+  
 end
